@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-image: linear-gradient(#091428, #0A1428);
+    color: #C8AA6E;
 }
 
 header {
@@ -10,4 +12,41 @@ header {
     max-width: 100%;
     max-height: 100%;
     width: 500px;
+}
+
+/* Main Container of Champions Gallery */
+
+#main-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    gap: 10px;
+}
+
+.champ-container {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: linear-gradient(#463714, #32281E);
+    transition: transform 0.3s;
+}
+
+.champ-container:hover {
+    transform: scale(1.2);
+}
+
+.champ-stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.champ-hp {
+    background-color: rgb(255, 78, 78);
+    color: #091428;
+    width: 100%;
+}
+
+.champ-mp {
+    background-color: rgb(123, 123, 253);
+    color: #091428;
+    width: 100%;
 }
