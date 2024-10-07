@@ -1,4 +1,5 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-image: linear-gradient(#091428, #0A1428);
     color: #C8AA6E;
@@ -24,14 +25,19 @@ header {
 }
 
 .champ-container {
-    border: 2px solid black;
+    font-weight: bold;
+    border: 2px solid #C8AA6E;
     border-radius: 20px;
-    background-image: linear-gradient(#463714, #32281E);
+    background-image: linear-gradient(#68511b, #32281E);
     transition: transform 0.3s;
 }
 
+.champ-image {
+    border-radius: 10px;
+  }
+
 .champ-container:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .champ-stats {

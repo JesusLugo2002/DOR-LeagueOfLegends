@@ -14,7 +14,7 @@ export default class ChampionView {
             this.mainContainer.innerHTML += `
             <div class="champ-container">
                 <p class="champ-name">${champ.name}, ${champ.title}</p>
-                <img src="${champ.image}" alt="logo-${champ.name}"/>
+                <img class="champ-image" src="${champ.image}" width="70%" alt="logo-${champ.name}"/>
                 <div class="champ-stats">
                     <p class="champ-hp">HP: ${champ.hp}</p>
                     <p class="champ-mp">MP: ${champ.mp}</p>
