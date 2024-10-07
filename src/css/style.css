@@ -37,7 +37,13 @@ header {
   }
 
 .champ-container:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    animation: colorEffect 1s 3s ease-in-out;
+}
+
+@keyframes colorEffect {
+    0% {background-image: linear-gradient(#b98c21, #32281E);}
+    100% {background-image: linear-gradient(#68511b, #32281E);}
 }
 
 .champ-stats {
