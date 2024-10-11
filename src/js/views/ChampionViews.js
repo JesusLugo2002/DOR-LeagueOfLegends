@@ -22,21 +22,4 @@ export default class ChampionView {
             `
         }
     }
-
-    showChampionDetail(data) {
-        const container = document.getElementById("champ-detail-container")
-        container.innerHTML = `
-        <div id='detail-main-container'>
-            <div class='left-detail-side'>
-                <img src="${data.image}">
-            </div>
-            <div class='right-detail-side'>
-                <div class='detail-header'>
-                    <p>${data.name}, ${data.title}</p>
-                    <p class="close-detail" onclick="document.getElementById('detail-main-container').remove()">Cerrar</p>
-                </div>
-            </div>
-        </div>
-        `
-    }
 }  
