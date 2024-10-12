@@ -1,5 +1,5 @@
-import ChampionController from "./controllers/ChampionController.js";
+import Controller from "./controllers/Controller.js";
 
-document.addEventListener('DOMContentLoaded', () => {
-    const controller = new ChampionController()
-});
+document.addEventListener("DOMContentLoaded", () => {
+    const controller = new Controller();
+})
