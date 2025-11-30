@@ -1,7 +1,8 @@
 #background {
     position: fixed;
     z-index: -1;
-    background-image: url("https://th.bing.com/th/id/R.efc9225a056d338aa404d48fbc81e3ca?rik=iV9zkoJbVZAZvQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f7HhWFIK.jpg&ehk=oM6795vtcNdcEF9oyhsDNSeHYN9YCSkUELwhyNxF%2bYE%3d&risl=&pid=ImgRaw&r=0");
+    background-image: url("../assets/img/background.webp");
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
