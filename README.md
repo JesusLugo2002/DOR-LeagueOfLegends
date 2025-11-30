@@ -2,7 +2,7 @@
 
 # :dragon: The Legendex
 
-A League of Legends champeons gallery. The data is extracted using requests to the official API and displayed in the web using JavaScript to modify the DOM directly, injecting HTML.
+A League of Legends champions gallery. The data is extracted using requests to the official API and displayed in the web using JavaScript to modify the DOM directly, injecting HTML.
 For enhance the development process, a simple Model-View-Controller pattern was applied as introduction to design patterns.
 
 This project was developed as homework for the Web Design subject of my Web Application Development formation.
